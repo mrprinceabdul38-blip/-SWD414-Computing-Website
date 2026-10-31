@@ -1,1 +1,106 @@
+/* General Website Styling */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f0f4f8;
+color: #333;
+line-height: 1.7;
+}
+
+/* Header */
+
+header {
+background: linear-gradient(135deg, #003366, #0077b6);
+color: white;
+text-align: center;
+padding: 45px 20px;
+}
+
+header h1 {
+font-size: 32px;
+margin-bottom: 10px;
+}
+
+/* Navigation */
+
+nav {
+background-color: #002244;
+text-align: center;
+padding: 18px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 12px;
+font-weight: bold;
+display: inline-block;
+}
+
+nav a:hover {
+color: #00d4ff;
+}
+
+/* Main Content */
+
+main {
+max-width: 900px;
+margin: 35px auto;
+padding: 30px;
+background-color: white;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+color: #003366;
+margin-bottom: 15px;
+}
+
+p {
+margin-bottom: 15px;
+}
+
+/* Programmes List */
+
+ul {
+padding-left: 30px;
+}
+
+li {
+margin-bottom: 10px;
+}
+
+/* Footer */
+
+footer {
+background-color: #002244;
+color: white;
+text-align: center;
+padding: 20px;
+margin-top: 40px;
+}
+
+/* Mobile Design */
+
+@media (max-width: 600px) {
+header h1 {
+font-size: 24px;
+}
+
+nav a {
+    margin: 6px;
+    font-size: 14px;
+}
+main {
+    margin: 15px;
+    padding: 20px;
+}
+
+}
