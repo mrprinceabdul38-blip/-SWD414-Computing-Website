@@ -142,4 +142,31 @@ main {
     font-weight: bold;
     margin-top: 15px;
 }
+
+/* Programme Cards */
+
+.programme-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.programme-card {
+    background-color: #eaf4ff;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    border-bottom: 4px solid #0077b6;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.programme-card h3 {
+    color: #003366;
+}
+
+.programme-card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
 }
