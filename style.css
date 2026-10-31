@@ -80,11 +80,17 @@ margin-bottom: 10px;
 /* Footer */
 
 footer {
-background-color: #002244;
-color: white;
-text-align: center;
-padding: 20px;
-margin-top: 40px;
+    background-color: #002244;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px;
+    color: white;
 }
 
 /* Mobile Design */
