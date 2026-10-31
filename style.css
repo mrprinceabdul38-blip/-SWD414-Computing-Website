@@ -169,4 +169,26 @@ main {
     transform: translateY(-5px);
     transition: 0.3s;
 }
+
+/* About Page Styling */
+
+.about-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+}
+
+.about-card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border-left: 5px solid #0077b6;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.about-card h2 {
+    color: #003366;
+    margin-bottom: 10px;
+}
 }
